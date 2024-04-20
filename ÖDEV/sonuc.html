@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonuc</title>
+</head>
+<body>
+    <script>
+        var veriler=new URLSearchParams(window.location.search);
+        var ad=veriler.get('isim');
+        var soyad=veriler.get('soyisim');
+        document.write("<p>İsim olarak "+ ad +" yazdığınız görülüyor.</br>Soyisim olarak da "+soyad+" rezervasyon oluşturulduğu görülüyor</p>")
+    </script>
+</body>
+</html>
